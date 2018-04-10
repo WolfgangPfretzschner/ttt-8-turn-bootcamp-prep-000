@@ -1,1 +1,6 @@
 #!/usr/bin/env ruby
+
+require_relative '../lib/turn.rb'
+
+puts "Please choose between 1 and 9!"
+input = gets.strip
