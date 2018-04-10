@@ -32,6 +32,8 @@ def turn(board)
   else 
     move(board, index, value = "X")
   end
+  display_board(board)
+  
 end
 
 def position_taken?(board, index)
