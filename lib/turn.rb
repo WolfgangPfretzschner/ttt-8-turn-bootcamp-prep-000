@@ -29,8 +29,8 @@ def turn(board)
   if valid_move?(board, index) == false
     puts "Invalide entry please try again."
   else 
-    board = 
-    
+    board[index] = "X"
+  end
 end
 
 def position_taken?(board, index)
