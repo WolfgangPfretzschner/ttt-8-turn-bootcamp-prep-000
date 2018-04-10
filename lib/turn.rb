@@ -30,7 +30,7 @@ def turn(board)
     puts "Invalide entry please try again."
     turn(board)
   else 
-    move(board, input_to_index, value = "X")
+    move(board, index, value = "X")
   end
 end
 
