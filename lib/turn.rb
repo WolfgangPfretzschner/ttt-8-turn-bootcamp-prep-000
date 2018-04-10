@@ -28,6 +28,7 @@ def turn(board)
   input_to_index(input)
   if valid_move?(board, input_to_index) == false
     puts "Invalide entry please try again."
+    turn(board)
   else 
     move(board, input_to_index, value = "X")
   end
