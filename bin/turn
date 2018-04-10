@@ -8,5 +8,4 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 
-puts "Please choose between 1 and 9!"
-input = gets.strip
+turn(board)
