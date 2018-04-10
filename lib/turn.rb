@@ -22,8 +22,13 @@ def move(board_array, index, value = "X")
   return board_array
 end
 
-def turn()
-  
+def turn(board)
+  puts "Please enter 1-9:"
+  input = gets.strip
+  input_to_index(input)
+  if valid_move?(board, index) == false
+    puts 
+    
 end
 
 def position_taken?(board, index)
