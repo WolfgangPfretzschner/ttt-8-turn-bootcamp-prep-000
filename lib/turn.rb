@@ -15,8 +15,9 @@ def valid_move?()
   
 end
 
-def move()
-  
+def move(board_array, index, value = "X")
+  board_array[index] = value
+  return board_array
 end
 
 def turn()
